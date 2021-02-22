@@ -11,10 +11,10 @@
 ```
 * Macbook Pro 
   * w/o mkl
-```
-./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i9.txt  32.86s user 3.30s system 394% cpu 9.164 total
-```
+  ```
+  ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i9.txt  32.86s user 3.30s system 394% cpu 9.164 total
+  ```
   * w/ mkl
-```
-TBA
-```
+  ```
+  TBA
+  ```
