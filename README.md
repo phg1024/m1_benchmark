@@ -5,7 +5,7 @@
 * i7-6700K CPU @ 4.00GHz, 32GB Mem Desktop on Ubuntu 18.04.5 LTS x86_64
 
 ## Benchmarks
-### SuiteSparse 5.8.1
+### CHOLMOD Demo, SuiteSparse 5.8.1
 * MacBook Air (M1, 2020)
 ```
 ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.m1.txt  9.83s user 0.52s system 164% cpu 6.293 total
