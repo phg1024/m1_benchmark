@@ -2,7 +2,7 @@
 ## Machines
 * MacBook Air (M1, 2020), 16GB
 * MacBook Pro (16-inch, 2019), 2.4 GHz 8-Core Intel Core i9, 32GB
-* i7 Desktop
+* i7-6700K CPU @ 4.00GHz Desktop
 
 ## Benchmarks
 ### SuiteSparse 5.8.1
@@ -24,10 +24,11 @@
   ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i9.txt  33.90s user 3.85s system 400% cpu 9.419 total
   ```
 * i7 Desktop
-```
-time ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i7.txt
+  * w/ openblas
+  ```
+  time ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i7.txt
 
-real	0m14.627s
-user	1m6.857s
-sys	0m30.580s
-```
+  real	0m14.627s
+  user	1m6.857s
+  sys	0m30.580s
+  ```
