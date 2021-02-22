@@ -1,0 +1,42 @@
+---------------------------------- cholmod_l_demo:
+cholmod version 3.0.14
+SuiteSparse version 5.8.1
+norm (A,inf) = 203.333
+norm (A,1)   = 203.333
+CHOLMOD sparse:  A:  18000-by-18000, nz 3457658, upper.  OK
+CHOLMOD dense:   B:  18000-by-1,   OK
+bnorm 1.99994
+Analyze: flop 1.23846e+11 lnz 4.19274e+07
+Factorizing A
+CHOLMOD factor:  L:  18000-by-18000  supernodal, LL'.  nz 43623341  OK
+nmethods: 1
+Ordering: AMD     fl/lnz     3911.5  lnz/anz       14.8
+Ordering: METIS   fl/lnz     2953.8  lnz/anz       12.1
+ints in L:          213394, doubles in L:        59914056
+factor flops 1.23846e+11 nnz(L)        41927385 (w/no amalgamation)
+nnz(A*A'):         3457658
+flops / nnz(L):    2953.8
+nnz(L) / nnz(A):     12.1
+analyze cputime:        0.6470
+factor  cputime:         1.1497 mflop: 107716.6
+solve   cputime:         0.0885 mflop:   1895.6
+overall cputime:         1.8852 mflop:  65781.3
+solve   cputime:         0.0672 mflop:   2495.4 (100 trials)
+solve2  cputime:         0.0000 mflop:      0.0 (100 trials)
+peak memory usage:          690 (MB)
+residual (|Ax-b|/(|A||x|+|b|)): 3.29e-15 2.82e-15
+residual  1.3e-16 (|Ax-b|/(|A||x|+|b|)) after iterative refinement
+rcond     5.1e-04
+
+
+CHOLMOD GPU/CPU statistics:
+SYRK  CPU calls          801 time   0.0000e+00
+      GPU calls            0 time   0.0000e+00
+GEMM  CPU calls          635 time   0.0000e+00
+      GPU calls            0 time   0.0000e+00
+POTRF CPU calls          167 time   0.0000e+00
+      GPU calls            0 time   0.0000e+00
+TRSM  CPU calls          166 time   0.0000e+00
+      GPU calls            0 time   0.0000e+00
+time in the BLAS: CPU   0.0000e+00 GPU   0.0000e+00 total:   0.0000e+00
+assembly time   0.0000e+00    0.0000e+00
