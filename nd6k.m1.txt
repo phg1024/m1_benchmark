@@ -40,3 +40,6 @@ TRSM  CPU calls          166 time   0.0000e+00
       GPU calls            0 time   0.0000e+00
 time in the BLAS: CPU   0.0000e+00 GPU   0.0000e+00 total:   0.0000e+00
 assembly time   0.0000e+00    0.0000e+00
+
+
+./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i9.txt  32.86s user 3.30s system 394% cpu 9.164 total
