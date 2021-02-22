@@ -1,7 +1,7 @@
 # Some random benchmark for M1 macbook
 ## Machines
 * MacBook Air (M1, 2020)
-* Macbook Pro 
+* MacBook Pro (16-inch, 2019)
 
 ## Benchmarks
 ### SuiteSparse 5.8.1
