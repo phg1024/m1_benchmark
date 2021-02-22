@@ -20,5 +20,5 @@
   ```
   * w/ openblas
   ```
-  TBA
+  ./cholmod_l_demo nd6k/nd6k.mtx > nd6k.i9.txt  33.90s user 3.85s system 400% cpu 9.419 total
   ```
