@@ -1,8 +1,8 @@
 # Some random benchmark for M1 macbook
 ## Machines
-* MacBook Air (M1, 2020), 16GB
-* MacBook Pro (16-inch, 2019), 2.4 GHz 8-Core Intel Core i9, 32GB
-* i7-6700K CPU @ 4.00GHz Desktop
+* MacBook Air (M1, 2020), 16GB Mem
+* MacBook Pro (16-inch, 2019), 2.4 GHz 8-Core Intel Core i9, 32GB Mem
+* i7-6700K CPU @ 4.00GHz, 32GB Mem Desktop on Ubuntu 18.04.5 LTS x86_64
 
 ## Benchmarks
 ### SuiteSparse 5.8.1
